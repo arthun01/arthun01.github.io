@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="96.416 120.764 134.812 85.812" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <filter id="inner-shadow-filter-1" color-interpolation-filters="sRGB" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="inner-shadow 1 40 0 10 0.08 rgba(0,0,0,0.7)">
+      <feOffset dx="40" dy="0"/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite operator="out" in="SourceGraphic"/>
+      <feComponentTransfer result="choke">
+        <feFuncA type="linear" slope="0.16"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.7)" result="color"/>
+      <feComposite operator="in" in="color" in2="choke" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+    <filter id="inner-shadow-filter-0" color-interpolation-filters="sRGB" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="inner-shadow 1 40 0 14 0.22 rgba(0,0,0,0.7)">
+      <feOffset dx="40" dy="0"/>
+      <feGaussianBlur stdDeviation="14"/>
+      <feComposite operator="out" in="SourceGraphic"/>
+      <feComponentTransfer result="choke">
+        <feFuncA type="linear" slope="0.44"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.7)" result="color"/>
+      <feComposite operator="in" in="color" in2="choke" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+    <filter id="motion-blur-filter-0" color-interpolation-filters="sRGB" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="motion-blur 1 8 horizontal">
+      <feGaussianBlur stdDeviation="8 0" edgeMode="none"/>
+    </filter>
+    <filter id="inner-shadow-filter-2" color-interpolation-filters="sRGB" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="inner-shadow 1 8 0 10 0.5 rgba(0,0,0,0.7)">
+      <feOffset dx="8" dy="0"/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite operator="out" in="SourceGraphic"/>
+      <feComponentTransfer result="choke">
+        <feFuncA type="linear" slope="1"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.7)" result="color"/>
+      <feComposite operator="in" in="color" in2="choke" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <ellipse style="stroke: rgb(0, 0, 0); paint-order: stroke; stroke-opacity: 0; fill: rgb(61, 2, 11); filter: url(#inner-shadow-filter-1);" cx="183.902" cy="164.096" rx="38.823" ry="38.823"/>
+  <ellipse style="stroke: rgb(255, 255, 255); fill-rule: nonzero; paint-order: stroke; fill: rgb(121, 2, 22); stroke-opacity: 0; filter: url(#inner-shadow-filter-0);" cx="154.749" cy="163.67" rx="42.906" ry="42.906"/>
+  <rect x="130.74" y="160.217" width="100.488" height="4.784" style="stroke: rgb(0, 0, 0); stroke-opacity: 0; fill: rgb(233, 4, 42); filter: url(#motion-blur-filter-0);"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(233, 4, 42); paint-order: stroke; stroke-opacity: 0; filter: url(#inner-shadow-filter-2);" cx="135.239" cy="165.102" rx="38.823" ry="38.823"/>
+</svg>
