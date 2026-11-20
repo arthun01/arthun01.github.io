@@ -1,0 +1,5 @@
+- no mobile gostaria que o circulo de pixel ficasse maior e fixo no canto esquerdo e de forma mais suave ainda, para atrapalhar menos
+- tirar ou substituir o "/" de tanto lugar ai
+- no mobile a nav bar é para tirar tudo do lado direito e transformar num menu hamburguer minimalista e bonito com animação suave
+- no "contato" tira meu email e deixa so os links
+- na navbar tira aquele circulo amarelo meio pixelado não sei o que é isso 

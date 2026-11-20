@@ -1,0 +1,61 @@
+:root {
+  /* Dark theme (Default Brand Identity) */
+  --bg: #14110F;
+  --surface: #1E1A18;
+  --surface-hover: #26211E;
+  --surface-active: #2F2926;
+  --border: #2E2825;
+  --border-focus: #95122C;
+  --text: #F2EBE4;
+  --muted: #A39A93;
+  --sand: #C8A98B;
+  --accent: #95122C;
+  --accent-hover: #B01835;
+  --accent-light: #E2566D;
+  --pop: #FFB800;
+  --wine: #65010D;
+  --selection-bg: #FFB800;
+  --selection-text: #14110F;
+  --navbar-bg: rgba(20, 17, 15, 0.75);
+
+  /* Typography */
+  --font-display: 'Syne', system-ui, -apple-system, sans-serif;
+  --font-body: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  --font-accent: 'Cormorant Garamond', Georgia, serif;
+
+  /* Motion & Easings */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.18, 1);
+  --duration-fast: 0.2s;
+  --duration-normal: 0.4s;
+  --duration-slow: 0.9s;
+
+  /* Layout */
+  --max-width: 1180px;
+  --gutter: clamp(20px, 4vw, 48px);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+/* Light Theme Override */
+[data-theme="light"] {
+  --bg: #FBF9F6;
+  --surface: #F2ECE4;
+  --surface-hover: #E8E0D7;
+  --surface-active: #DED5CB;
+  --border: #E8E0D8;
+  --border-focus: #95122C;
+  --text: #65010D;
+  --muted: #8C5A55;
+  --sand: #C8A98B;
+  --accent: #95122C;
+  --accent-hover: #7E0D23;
+  --accent-light: #95122C;
+  --pop: #C98A00;
+  --wine: #65010D;
+  --selection-bg: #C98A00;
+  --selection-text: #FBF9F6;
+  --navbar-bg: rgba(251, 249, 246, 0.8);
+}

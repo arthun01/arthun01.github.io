@@ -1,0 +1,4 @@
+- adicione um botao de fechar a navbar
+- to achando muito estranho esse circulo de pixel quando fica no mobile
+- no "sobre mim" tire aquele nome "perfil" entendi nada ksksks
+- no footer tira o "codigo com acabamento"
