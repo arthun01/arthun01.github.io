@@ -76,6 +76,8 @@ portfolio/
 
 ## 4. Estratégia de Deploy no GitHub Pages
 
-- **Vite Config:** `base: './'` ou `/portfolio/` para garantir carregamento de caminhos relativos em subdiretórios do GitHub Pages.
-- **Build Output:** Pasta `dist/`.
-- **Workflow Automático:** Ação do GitHub Actions (`.github/workflows/deploy.yml`) para compilar e publicar automaticamente a cada push na branch principal.
+- **Vite Config:** `base: './'` para garantir carregamento de caminhos relativos em subdiretórios ou domínios customizados.
+- **Build Output:** Pasta `dist/` com arquivo `.nojekyll` para desativar o processador Jekyll do GitHub Pages.
+- **Deploy via Branch (`gh-pages`):**
+  - Comando configurado: `npm run deploy` (executa `predeploy` para gerar a build e publica o conteúdo da pasta `dist/` diretamente na branch `gh-pages` via pacote `gh-pages`).
+- **Deploy via GitHub Actions:** Workflow automatizado em `.github/workflows/deploy.yml` mantido como opção alternativa.

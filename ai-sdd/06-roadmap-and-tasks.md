@@ -13,4 +13,6 @@
   - Removido o texto "fechar", mantendo apenas o **`✕`** centralizado.
   - Estilizado como botão quadrado minimalista de 36x36px, idêntico ao da navbar mobile.
 - [x] Preservar todas as alterações manuais do usuário em [index.html](file:///home/arthurrv/Documentos/www/portfolio/index.html) (`dev & curioso`, `perfil.jpg`).
+- [x] Configuração do script `npm run deploy` via pacote `gh-pages` para publicação automática na branch `gh-pages`.
+- [x] Criação do arquivo `public/.nojekyll` para evitar interferência do Jekyll nos assets estáticos.
 - [x] Validar compilação e build sem erros (`npm run build` aprovado em 637ms).
